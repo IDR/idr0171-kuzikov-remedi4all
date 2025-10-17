@@ -1,0 +1,11 @@
+---
+target: "Screen:name:idr0171-kuzikov-remedi4all/screenA"
+path: "idr0171-screenA-plates.tsv"
+continue: "true"
+transfer: "ln_s"
+skip:
+  - all
+parallel_upload: "10"
+columns:
+    - path
+    - name
