@@ -31,7 +31,7 @@ pip install ome-zarr==0.11.1 zarr==2.18.7
 for i in `cat 171.log`; do omero zarr extinfo --set $i; done
 
 # Do the rendering/thumbnails
-for i in `cat 171.log`; do omero render test --thumb $i; done
+parallel -j 8 --eta --progress --delay 3 omero render test --thumb :::: 171.log
 ```
 
 
