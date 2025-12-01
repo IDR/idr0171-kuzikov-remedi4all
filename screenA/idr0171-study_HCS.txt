@@ -1,0 +1,116 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.																																	
+																																	
+# STUDY DESCRIPTION SECTION																																	
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details																																	
+																																	
+Comment[IDR Study Accession]	# leave blank																																
+Study Title Interdisciplinary Study on Drug-Induced-Phospholipidosis of Repurposing Libraries through Machine Learning and Experimental Evaluation in Different Cell Lines																																
+Study Type	high content screen																																
+Study Type Term Source REF	EFO																																
+Study Type Term Accession	EFO_0007550																																
+Study Description   'Phospholipidosis (PLD) is a cellular adverse effect that is, among others, caused by numerous cationic amphiphilic drugs. Interest is raised within pharma discovery to predict this phenomenon, as it can impact the outcome of phenotypic cellular screens and significantly delay drug development processes. The development of accurate and validated machine learning models for predicting drug-induced PLD across different cell lines and research centers could provide a valuable early application tool for the pharmaceutical industry, potentially accelerating drug discovery and reducing the risk of late-stage failures. We report here the assembly, curation, testing and modeling of one of the largest datasets of repurposed drugs (5000+) tested for PLD induction on different cell lines. A machine-learning classification method was developed and validated to predict whether molecules are prone to induce PLD effects when applied in cell-based screens.'																	
+Study Key Words 'Phospholipidosis','Drug repurposing','Machine learning'																					
+Study Organism  Chlorocebus aethiops																															
+Study Organism Term Source REF	NCBITaxon																																
+Study Organism Term Accession	# leave blank (NCBI:txid9534)																															
+Study Screens Number    1																												
+Study External URL	bioRxiv publication (https://www.biorxiv.org/content/10.1101/2025.07.08.663638v1) # if there is an existing web page related to the study enter it here																																
+Study Public Release Date   asap																																
+																																	
+# Study Publication																																	
+Study PubMed ID	# fill in if known																																
+Study Publication Title Interdisciplinary Study on Drug-Induced-Phospholipidosis of Repurposing Libraries through Machine Learning and Experimental Evaluation in Different Cell Lines																																
+Study Author List	see https://www.biorxiv.org/content/10.1101/2025.07.08.663638v1 for the full list with ORCIDs																															
+Study PMC ID	# fill in if known																																
+Study DOI	https://doi.org/10.1101/2025.07.08.663638 																																
+																																	
+# Study Contacts																																	
+Study Person Last Name	Kuzikov																																
+Study Person First Name	Maria																																
+Study Person Email	maria.kuzikov@itmp.fraunhofer.de																																
+Study Person Address    Fraunhofer Institute for Translational Medicine and Pharmacology (ITMP), Schnackenburgallee 114, 22525 Hamburg, Germany																																
+Study Person ORCID	https://orcid.org/0000-0001-8771-1865																																
+Study Person Roles	submitter																																
+																																	
+# Study License and Data DOI																																	
+Study License	CC BY 4.0																																
+Study License URL	# leave blank																																
+Study Copyright	# fill in	isn't this the same as license?? otherwise I have no idea																															
+Study Data Publisher	# leave blank																																
+Study Data DOI	# leave blank																																
+																																	
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi																													
+Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																													
+																																	
+																																	
+# SCREEN SECTION																																	
+# Screen Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. 																																
+# For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.																																	
+																																	
+Screen Number	1																																
+Comment[IDR Screen Name]	# leave blank																																
+Screen Description	Vero E-6 kidney cells treated with repurposed drugs for phospholipidosis induction 																															
+Screen Size	Plates: 	4D Images: 30,880   Planes: ??? Average Image Dimension (XYZCT): 1080 x 1080 x 1 x 3 x 1	Total Tb: depends what you take, raw .tif files (200GB), .ome.zarr (265.6GB) or .ome.zarr.zip from BIA																											
+Screen Example Images	Plate: ESP0029359 Well: F5 Position: 4, we also took that one for the NFDI4Bioimage calendar																															
+Screen Imaging Method	HCS, fluorescence microscopy, spinning disk confocal microscopy																																
+Screen Imaging Method Term Source REF	Fbbi																																
+Screen Imaging Method Term Accession	http://purl.obolibrary.org/obo/FBbi_00000246, http://purl.obolibrary.org/obo/FBbi_00000253																																
+Screen Technology Type	compound screen																																
+Screen Technology Type Term Source REF	# leave blank																																
+Screen Technology Type Term Accession	# leave blank																																
+Screen Type primary screen																															
+Screen Type Term Source REF EFO																																	
+Screen Type Term Accession  http://www.ebi.ac.uk/efo/EFO_0007556 ????																																	
+Screen Organism African green monkey (Chlorocebus aethiops)																																	
+Screen Organism Term Source REF	NCBITaxon																																
+Screen Organism Term Accession	# leave blank	NCBITaxon:9534																															
+Screen Comments Plate ESP0029359 has a missing image on A23 position 3 due to a focus error																																
+																												
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)																																	
+Library File Name	# idr0171-screenA-library.tsv																																
+Library File Format	tab-delimited text																																
+Library Type    chemical compound library	# choose from siRNA library, haploid deletion library, diploid homozygous deletion library, GFP protein fusion library, YFP protein fusion library, HA-Flag protein fusion library,compound library, antibody library, ORF library or enter your own value																																
+Library Type Term Source REF	EFO																																
+Library Type Term Accession	# leave blank																																
+Library Manufacturer    Fraunhofer ITMP # who manufactured the library, or who it was obtained from (if applicable)																																
+Library Version	published on Zenodo as supplimentary material https://doi.org/10.5281/zenodo.17200736# the version number (if applicable)																																
+Library Experimental Conditions	not applicable  # if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type.																																
+Library Experimental Conditions Term Source REF	EFO																																
+Library Experimental Conditions Term Accession	# leave blank																																
+Quality Control Description positive controls with Amiodarone at 10µm and negative control with DMSO at 0.1% v/validated    # a brief description of the kind of quality control measures that were taken (if applicable)																																
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol																												
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol																												
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO																												
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573																												
+Protocol Description	"Vero-E6 cells were cultured in a complete medium: Dulbecco’s Modified Eagle Medium (DMEM) supplemented with 10% FBS, 6 mM L-glutamine, and 1% penicillin/streptomycin. Cells were harvested at 80% confluence from a T175 cm² flask by washing once with 10 mL of RT PBS, followed by incubation with 5 mL of Trypsin 0.05% / EDTA 0.02% for 5 minutes. Cells were then resuspended in 10 mL of prewarmed culture medium. For plating, Vero-E6 cells were diluted to a concentration of 500,000 cells/mL in cell culture medium supplemented with 1:1000 dilution of HCS LipidTOX™ Red Phospholipidosis Detection Reagent (1000X). A volume of 20 µL of this cell suspension was added to each well of the 384-well plate, and cells were incubated for 24 hours at 37 °C in a 5% CO₂ environment. For fixation, 20 µL of 8% formaldehyde solution was added to each well and incubated for 30 minutes at room temperature. After incubation, the fixation buffer was then removed, and cells were washed with 50 µL/well of PBS. Cells were stained for 45 minutes with 20 µL/well of a solution containing CellMask™ Deep Red stain (1:3,000, Invitrogen #H32721) and Hoechst 33258 (1:10,000, Merck/Sigma-Aldrich #94403) diluted in PBS. Following staining, the solution was removed, and cells were washed three times with 50 µL/well of PBS. " # text about how the cells were grown here	"Compounds (at 10 µM concentration) and controls (amiodarone 10 µM concentration; DMSO 0.1 v/v %) were added to clear bottom, 384-well plates (PhenoPlate 384-well, black, optically clear flat-bottom, tissue-culture treated, Revvity #6057302) using the Echo Liquid Handler (Labcyte)." # text about any specific treatment to the cells here	not applicable # text about how the library was selected if not genome wide, transfection, knock outs etc.	"Image acquisition was performed using the automated Operetta Phenix High Content Screening system (Revvity). Image analysis was performed using Columbus 2.9 image analysis software (PerkinElmer Inc)"# text about labeling, the imaging hardware and software, feature extraction methods.	"Results were normalized against the positive control (amiodarone at 10 µM, set at 100% PLD induction) and the negative control (DMSO at 0.1% v/v, set at 0% PLD induction). Compounds with >50% PLD induction were classified as primary hits."# text about the analysis of the images and features.  Information about scoring and the criteria for 'hit' genes should be included here.
+
+# Phenotypes																																	
+Phenotype Name	phospholipidosis # list phenotypes found in the screen here, one in each column																																
+Phenotype Description	"Compounds with >50% PLD induction were classified as primary hits"# give a brief description of each phenotype, or how it was determined e.g. if score X is greater than Y then this phenotype assigned.																																
+Phenotype Score Type	???no idea what is meant by that??? # choose from: manual, automatic																																
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name	not in the CMPO # if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter it here http://www.ebi.ac.uk/ols/ontologies/cmpo																																
+Phenotype Term Accession	not in the CMPO # if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter it here http://www.ebi.ac.uk/ols/ontologies/cmpo																																
+																																	
+# Raw Data Files																																	
+Raw Image Data Format	ome-zarr # the format of the image data, ideally from the list here https://www.openmicroscopy.org/site/support/bio-formats5.1/supported-formats.html																																
+Raw Image Organization	16 plates, 384 wells each, 5 fields per well # describe how the images are organized, e.g. how many plates, number of fields per well																																
+																																	
+# Feature Level Data Files																																	
+Feature Level Data File Name	idr0171-screenA-library.tsv # list any feature level table files here																																
+Feature Level Data File Description	contains well specific compounds and well-averaged PLD induction measurements # a description of the table																																
+Feature Level Data File Format	tab-delimited # tab-delimited text or other format																															
+Feature Level Data Column Name	# list all the columns in the table, each column in the table should be in a separate column here																																
+Feature Level Data Column Description	# describe the values in each column																																
+																																	
+#  Processed Data Files  --> not applicable
+Processed Data File Name	idr0171-screenA-processed.tsv # the name of the processed data file																																
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description	# a brief description of the what is in the file																																
+Processed Data Column Name	Plate	Well	Characteristics [Organism]	Term Source 1 REF	Term Source 1 Accession	Characteristics [Cell Line]	Term Source 2 REF	Term Source 2 Accession	Compound name	CHEMBL	Broad_ID	InChI Key	SMILES	PubChemURL	control type	Channels	Nuclei - count	Effect [%]	Viability [%]	# list each of the columns in the processed data file here, each column in the table should be ain a separate column here																																
+Processed Data Column Type	plate	well	experimental condition	experimental condition	experimental condition	experimental condition	experimental condition	experimental condition	reagent identifier	reagent identifier	reagent identifier	reagent identifier	reagent identifier	reagent identifier	experimental condition	data	data	data	data	# state the type of value in each column. Choose from: plate, well, reagent identifier, gene identifier, gene symbol, gene description, data, phenotype, experimental condition																																
+Processed Data Column Annotation Level	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	well	well	well	well	# for data and phenotype columns enter the level of the annotation so that it is clear if the value is derived from data from a single well, is averaged over replicates of a reagent, or is at the gene level. Choose from: well, single replicate of reagent, multiple replicates of reagent, gene, reagent and experimental condition, gene and experimental condition.  																																
+Processed Data Column Description	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	"Describes the used dyes/stainings and what the fluorophores bind to"	"Describes the well-average of counted nuclei"	"Describes the normalized induced phospholipidosis effect"	"Describes the well-average of observed viability of cells"	# for each data and phenotype column, enter a brief description of what the value represents																																
+Processed Data Column Link To Library File	not applicable# enter which column can be used to link the information in the processed data file to the library file e.g. gene identifier, siRNA identifier, or Plate_Well combination																																
