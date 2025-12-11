@@ -1,0 +1,100 @@
+---
+name: idr0171-kuzikov-remedi4all/screenA
+version: 1
+
+defaults:
+  include: false
+  type: string
+  includeclient: true
+  visible: true
+  omitempty: true
+
+columns:
+
+  - name: Characteristics [Alternative Organism Name]
+    clientname: Alternative Organism Name
+    include: true
+
+  - name: Control Type
+    clientname: Control Type
+    include: true
+
+  - name: Nuclei Count
+    clientname: Nuclei Count
+    include: true
+
+  - name: Percentage Effect
+    clientname: Percentage Effect
+    include: true
+
+  - name: Percentage Viability
+    clientname: Percentage Viability
+    include: true
+
+  - name: Channels
+    clientname: Channels
+    include: true
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound
+      columns:
+        - name: Compound Name
+          clientname: Compound Name
+          include: true
+        - name: Compound PubChem URL
+          clientname: Compound Name URL
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
+        - name: Compound PubChem CID
+          clientname: PubChem CID
+          include: true
+        - name: Compound ChEMBL ID
+          clientname: ChEMBL ID
+          include: true
+        - name: Broad Identifier
+          clientname: Broad Identifier
+          include: true
+        - name: Compound InChIKey
+          clientname: InChIKey
+          include: true
+        - name: Compound SMILES
+          clientname: SMILES
+          include: true
+
+
+advanced:
+  well_to_images: true
+  ignore_missing_primary_key: true
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
+    - namespace: openmicroscopy.org/mapr/compound
+      keys:
+        - Compound Name
+        - Compound Name URL
