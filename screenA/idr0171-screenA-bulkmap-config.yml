@@ -70,8 +70,17 @@ columns:
         - name: Compound PubChem CID
           clientname: PubChem CID
           include: true
+        - name: Alternative Compound PubChem CID
+          clientname: Alternative PubChem CID
+          include: true
+        - name: Alternative Compound PubChem URL
+          clientname: Alternative PubChem URL
+          include: true
         - name: Compound ChEMBL ID
           clientname: ChEMBL ID
+          include: true
+        - name: Alternative Compound ChEMBL ID
+          clientname: Alternative ChEMBL ID
           include: true
         - name: Broad Identifier
           clientname: Broad Identifier
@@ -79,8 +88,14 @@ columns:
         - name: Compound InChIKey
           clientname: InChIKey
           include: true
+        - name: Alternative Compound InChIKey
+          clientname: Alternative InChIKey
+          include: true
         - name: Compound SMILES
           clientname: SMILES
+          include: true
+        - name: Alternative Compound SMILES
+          clientname: Alternative SMILES
           include: true
 
 
