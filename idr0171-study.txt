@@ -16,7 +16,7 @@ Study Organism Term Accession	9534
 Study Screens Number	1																		
 Study External URL																			
 Study BioImage Archive Accession	S-BIAD2282																		
-Study Public Release Date																			
+Study Public Release Date	2026-03-30																			
 																			
 																			
 # Study Publication																			
