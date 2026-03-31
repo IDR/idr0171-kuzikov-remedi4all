@@ -21,8 +21,8 @@ Study Public Release Date	2026-03-30
 																			
 # Study Publication																			
 Study PubMed ID																			
-Study Publication Title	Interdisciplinary Study on Drug-Induced-Phospholipidosis of Repurposing Libraries through Machine Learning and Experimental Evaluation in Different Cell Lines																		
-Study Author List	Kuzikov M, Kalman A, Reinshagen J, Huchting J, Qian K, Axelsson H, Tampere M, Östling P, Seashore-Ludlow B, Gadiya Y, Gribbon P, Zaliani A																		
+Study Publication Title	Experimental and machine learning-based exploration of repurposed drugs reveals chemical features underlying phospholipidosis																		
+Study Author List	Kuzikov M, Kalman A, Karki R, Reinshagen J, Huchting J, Qian K, Axelsson H, Tampere M, Östling P, Seashore-Ludlow B, Gadiya Y, Gribbon P, Zaliani A																		
 Study PMC ID																			
 Study DOI																			
 																			
