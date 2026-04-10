@@ -24,7 +24,7 @@ Study PubMed ID
 Study Publication Title	Experimental and machine learning-based exploration of repurposed drugs reveals chemical features underlying phospholipidosis																		
 Study Author List	Kuzikov M, Kalman A, Karki R, Reinshagen J, Huchting J, Qian K, Axelsson H, Tampere M, Östling P, Seashore-Ludlow B, Gadiya Y, Gribbon P, Zaliani A																		
 Study PMC ID																			
-Study DOI																			
+Study DOI	https://doi.org/10.1016/j.patter.2025.101453																			
 																			
 																			
 # Study Contacts																			
@@ -32,7 +32,7 @@ Study Person Last Name	Kuzikov
 Study Person First Name	Maria																		
 Study Person Email	maria.kuzikov@itmp.fraunhofer.de																		
 Study Person Address    	Fraunhofer Institute for Translational Medicine and Pharmacology (ITMP), Schnackenburgallee 114, 22525 Hamburg, Germany																		
-Study Person ORCID	https://orcid.org/0000-0001-8771-1865																		
+Study Person ORCID	0000-0001-8771-1865																		
 Study Person Roles	submitter																		
 																			
 																			
@@ -41,7 +41,7 @@ Study License	CC BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/																		
 Study Copyright	Kuzikov et al																		
 Study Data Publisher	University of Dundee																		
-Study Data DOI																			
+Study Data DOI	https://doi.org/10.17867/10000212																			
 																			
 Term Source Name	NCBITaxon	EFO	CMPO	Fbbi															
 Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/															
